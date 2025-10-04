@@ -20,34 +20,47 @@ sudo whoami
 **Outcome:**
 Confirmed sudo access and administrative privilages
 
-[Login/Permissions](Confirm%20Admin%20Permissions.png) 
+![Confirming Sudo Privilages](Screenshots/Confirm%20Admin%20Permissions.png) 
 
 ---
 
-## 🖥️ Step 2: Verify OS Version
-**Commands:**
-```
-lsb_release -a
-```
-```
-uname -r
-```
-**Outcome:**
-Verified Ubuntu release and kernel version
-
-<img width="1270" height="804" alt="Updating Ubuntu" src="https://github.com/user-attachments/assets/f7c4d7f3-debc-4471-9291-6833d71797dc" />
-
----
-
-## 📦 Step 3: Update System Packages
-**Commands:**
+## Step 2: Updating Ubuntu
+**Command:**
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 **Outcome:**
-System packages successfully updated to latest.
+System packages successfully updated to the latest versions.
 
-<img width="1277" height="805" alt="System verification" src="https://github.com/user-attachments/assets/5be353df-347b-4303-b782-14e8744fec09" />
+![Ubuntu Update](Screenshots/Updating%20Ubuntu.png)
+
+---
+
+## Step 3: SSH Installation
+**Command:**
+```
+sudo apt install openssh-server -y
+```
+**Outcome:**
+SSH server installed and ready for activation.
+
+![SSH Installation](Screenshots/SSH%20Installation.png)
+
+---
+
+## Step 4: SSH Activation
+**Commands:**
+```
+systemctl status ssh
+```
+```
+systemctl enable ssh
+```
+**Outcome:**
+SSH service is active and enabled to start on boot.
+
+![SSH Activation](Screenshots/SSH%20Activation.png)
+
 
 
 
