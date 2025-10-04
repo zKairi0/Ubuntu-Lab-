@@ -10,3 +10,4 @@
 whoami
 groups
 sudo whoami
+<img width="1281" height="799" alt="Confirm Admin Permissions" src="https://github.com/user-attachments/assets/97dd0c2c-5b19-40c2-9f97-1c342582af85" />
