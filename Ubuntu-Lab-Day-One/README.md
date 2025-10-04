@@ -8,17 +8,30 @@
 
 ## 🔐 Step 1: Confirm Sudo Privileges
 **Command:**
-```bash
+```
 whoami
 ```
-```bash
+```
 groups
 ```
-```bash
+```
 sudo whoami
 ```
+**Outcome:**
+Confirmed sudo access and administrative privilages
 
+<img width="1281" height="799" alt="Confirm Admin Permissions" src="https://github.com/user-attachments/assets/ef84cb4d-b9c6-4e64-adb4-cba8a1d5ad93" />
 
+---
+
+## 🖥️ Step 2: Verify OS Version
+**Commands:**
+```
+lsb_release -a
+```
+```
+uname -r
+```
 
 
 
