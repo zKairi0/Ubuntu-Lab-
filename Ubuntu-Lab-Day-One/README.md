@@ -24,7 +24,7 @@ Confirmed sudo access and administrative privilages
 
 ---
 
-## Step 2: Updating Ubuntu
+## 🛠️ Step 2: Updating Ubuntu
 **Command:**
 ```
 sudo apt update && sudo apt upgrade -y
@@ -36,7 +36,7 @@ System packages successfully updated to the latest versions.
 
 ---
 
-## Step 3: SSH Installation
+## 📦 Step 3: SSH Installation
 **Command:**
 ```
 sudo apt install openssh-server -y
@@ -48,7 +48,7 @@ SSH server installed and ready for activation.
 
 ---
 
-## Step 4: SSH Activation
+## 🚀 Step 4: SSH Activation
 **Commands:**
 ```
 systemctl status ssh
